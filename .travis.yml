@@ -1,4 +1,7 @@
 language: objective-c
+os: osx
+osx_image: xcode10.11
+rvm: system
 
 before_install:
   - brew update
