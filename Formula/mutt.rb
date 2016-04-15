@@ -72,12 +72,12 @@ class Mutt < Formula
 
 patch do
   url "http://lunar-linux.org/~tchan/mutt/patch-1.5.24.sidebar.20150917.txt"
-  sha1 "d2bd73c8a07306c1a4f0e73a0f01f42fd20e3fad"
+  sha256 "ddc2baeb4d882ac32b5c54965dfb3a9b3164b2387888be33f4c1d16ebbea5b98"
 end if build.with? "sidebar-patch"
 
 patch do
   url "https://blog.x-way.org/stuff/mutt-1.5.24-trash_folder.diff"
-  sha1 "325c864b687876d50bc04369668544814552fbd0"
+  sha256 "985d7f6ae17e15e525b19e348b3a43e78177cea3b775434abcbe7d220bebe934"
 end if build.with? "trash-patch"
 
   def install
